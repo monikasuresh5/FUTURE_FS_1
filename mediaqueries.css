@@ -6,3 +6,24 @@
         display: flex;
     }
 }
+
+@media (max-width: 768px) {
+  #profile {
+    flex-direction: column;
+    gap: 2rem;
+    height: auto;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .role {
+    font-size: 1.4rem;
+  }
+
+  .intro {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}

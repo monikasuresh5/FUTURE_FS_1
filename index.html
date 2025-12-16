@@ -13,10 +13,10 @@
        <div class="logo">Monika Suresh</div> 
        <div>
         <ul class="nav-links">
-            <li><a href="#About">About</a></li>
-            <li><a href="#Experience">Experience</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul> 
        </div>       
     </nav>
@@ -29,21 +29,25 @@
                 <span></span>
             </div>
             <div class="menu-links">
-              <li><a href="#About" onclick="toggleMenu()">About</a></li>
-              <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
-              <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
-              <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li> 
+              <li><a href="#about" onclick="toggleMenu()">About</a></li>
+              <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+              <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+              <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
             </div>
         </div>
     </nav>
-    <SECTion id="profile">
+    <secion id="profile">
         <div class="section__pic-container">
             <img src="./assets/profile pic.png" alt="Monika Suresh profile picture" />
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Monika Suresh</h1>
-            <p class="section__text__p2">B.Tech CSE Student | Frontend Developer in Progress</p>
+            <p class="role">Frontend Developer in Progress</p>
+            <p class="intro">
+             I build clean, responsive web interfaces and solve problems using strong CS fundamentals.
+             Currently improving through real-world projects and technical internships.
+            </p>
             <div class="btn-container">
             <button class="btn btn-color-2"
             onclick="window.open('./assets/resume.pdf')"
@@ -76,22 +80,177 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="./assets/about-pic.jpeg" 
+                <img src="./assets/about-pic.png" 
                 alt="Profile picture" 
                 class="about-pic"
                 />
             </div>
-            <div class="about-ddetails-container">
+            <div class="about-details-container">
                 <div class="about-containers">
-                    <div class="ddetails-container">
+                    <div class="details-container">
                         <img src="./assets/experience.png" 
                         alt="experience icon" 
                         class="icon"
                         />
+                        <h3>Experience</h3>
+                        <p>Fresher<br>Frontend Developer</p>
+                    </div>
+                    <div class="details-container">
+                       <img src="./assets/education.png" 
+                        alt="education icon" 
+                        class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>B.Tech CSE<br>@SRM IST Ramapuram</p> 
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I’m a Computer Science undergraduate focused on building clean, responsive web interfaces and improving my problem-solving skills. 
+                        I work with C++, Python, HTML, and CSS, and apply core CS fundamentals such as data structures, OOP, DBMS, and operating systems in 
+                        my projects. Through internships and hands-on development work, I’m continuously improving my ability to write structured, efficient, 
+                        and maintainable code.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="arrow icon" class="icon arrow" 
+        onclick="location.href='./#experience'"
+        />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets//checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Git/GitHub</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>React native</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Programming Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets//checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>C++</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>DSA</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>OOP</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
         </div>
+        <img src="./assets/arrow.png" 
+        alt="arrow icon" class="icon arrow" 
+        onclick="location.href='./#projects'"
+        />
     </section>
     <script src="script.js"></script>
  </body>

@@ -182,15 +182,33 @@ section {
 }
 
 .section__text p {
-    font-size: 600;
+    font-size: 1rem;
 }
 
 .section__text__p1 {
     text-align: center;
 }
-.section__text__p2 {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
+
+.role {
+  font-size: 1.9rem;        /* bigger, but not shouting */
+  font-weight: 600;         /* stronger presence */
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.3px;
+}
+
+.role {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+.intro {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 520px;
+  margin: 0 auto 1.2rem;
+  color: #444;
 }
 
 .title {
@@ -258,4 +276,100 @@ section {
 
 .btn-container {
     gap: 1rem;
+}
+
+/* ABOUT SECTION */
+
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+/* EXPERIENCE SECTION */
+
+#experience {
+    position: relative;
+}
+
+.exprience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600rem;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.experience-sub-title {
+  text-align: center;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: flex-start;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;   
+}
+
+article .icon {
+    cursor: default;
 }
